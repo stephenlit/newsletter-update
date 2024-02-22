@@ -1,19 +1,16 @@
-import Logo from '../assets/images/illustration-sign-up-mobile.svg'
-import Desktop from '../assets/images/illustration-sign-up-desktop.svg'
+import Logo from "../assets/images/illustration-sign-up-mobile.svg";
+import Desktop from "../assets/images/illustration-sign-up-desktop.svg";
 
 function Header() {
-    console.log(Logo);
+  console.log(Logo);
 
-    return (
-        <picture>
-            <source
-            srcSet={Desktop}
-            media="(min-width: 768px)"
-           />
-            <img src={Logo}/>
-        </picture>
-    )
+  return (
+    <picture>
+      <source srcSet={Desktop} media="(min-width: 768px)" />
+      <img src={Logo} alt="signup logo" />
+    </picture>
+  );
 }
 
+export default Header;
 
-export default Header
