@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import Header from "./components/Header";
 import MainBody from "./components/MainBody";
 import EmailInput from "./components/EmailInput";
@@ -68,7 +67,6 @@ function App() {
             )}
         </section>
     );
->>>>>>> 99277e2a53de645fddfc6c266683b92ae5cb01ca
 }
 
 export default App;

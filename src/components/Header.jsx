@@ -6,11 +6,10 @@ function Header() {
 
   return (
     <picture>
-      <source srcSet={Desktop} media="(min-width: 768px)" />
+      <source srcSet={Desktop} media="(min-width: 768px)" alit="singup logo" />
       <img src={Logo} alt="signup logo" />
     </picture>
   );
 }
 
 export default Header;
-
